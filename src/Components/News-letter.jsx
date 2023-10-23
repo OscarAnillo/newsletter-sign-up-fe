@@ -18,8 +18,8 @@ export const NewsLetter = ({
       {!isSubmitted ? (
         <div className="news-letter-div" role="main">
           <img src={mobile} alt="" className="mobile-img" />
-          <img src={desktop} alt="" className="desktop-img" role="image" />
-          <div className="news-letter-text" role="contentinfo">
+          <img src={desktop} alt="" className="desktop-img" />
+          <div className="news-letter-text">
             <h1 className="main-title">Stay updated!</h1>
             <p className="news-text">
               Join 60.000+ product managers receiving monthly updates on:
